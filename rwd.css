@@ -1,0 +1,36 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .carousel__cards .carousel-cell {
+    width: 64%; /* full width */
+    height: 40rem; /* height of carousel */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .extra-padding-x {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .carousel__cards .carousel-cell {
+    width: 48%; /* full width */
+    height: 40rem; /* height of carousel */
+  }
+
+  .section__form {
+    height: 30rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .carousel__cards .carousel-cell {
+    width: 33%; /* full width */
+    height: 40rem; /* height of carousel */
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
