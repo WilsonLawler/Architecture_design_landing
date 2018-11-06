@@ -1,7 +1,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .carousel__cards .carousel-cell {
-    width: 64%; /* full width */
+    width: 80%; /* full width */
     height: 40rem; /* height of carousel */
   }
 }
@@ -14,7 +14,7 @@
   }
 
   .carousel__cards .carousel-cell {
-    width: 48%; /* full width */
+    width: 64%; /* full width */
     height: 40rem; /* height of carousel */
   }
 

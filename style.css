@@ -232,7 +232,7 @@ header {
 }
 
 .carousel__cards .carousel-cell {
-  width: 80%; /* full width */
+  width: 100%; /* full width */
   height: 40rem; /* height of carousel */
 }
 
