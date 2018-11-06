@@ -22,12 +22,12 @@ var waypoint = new Waypoint({
   element: document.getElementById("scrollPoint"),
   handler: function(direction) {
     if (direction == "down") {
-      $(".navbar").addClass("bg-white navbar-light");
+      $(".navbar").addClass("bg-white navbar-light navbar-shadow");
       $(".navbar").removeClass("navbar-dark");
       $(".link-to-top").show();
       console.log("Scrolled to waypoint!");
     } else {
-      $(".navbar").removeClass("bg-white navbar-light");
+      $(".navbar").removeClass("bg-white navbar-light navbar-shadow");
       $(".navbar").addClass("navbar-dark");
       $(".link-to-top").hide();
       console.log("up");
